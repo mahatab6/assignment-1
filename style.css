@@ -119,4 +119,125 @@
     border-radius: 10px;
 }
 
+.card p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
 
+/* Vision of Future */
+
+.Future{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.Future h3{
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Future p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.future-section{
+    display: flex;
+    gap: 24px;
+    align-content: space-between;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.future-card {
+    width: 300px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px 32px 32px 32px;
+    border-radius: 10px;
+}
+
+.future-card h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.future-card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.future-card button{
+    background-color: rgba(84, 144, 245, 1);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.future-color-2{
+    width: 300px;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 32px 32px 32px 32px;
+    border-radius: 10px;
+}
+
+.future-color-2 h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.future-color-2 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.future-color-2 button{
+    background-color: rgba(9, 161, 92, 1);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.future-color-3{
+    width: 300px;
+    background-color: rgba(247, 235, 207, 1);
+    padding: 32px 32px 32px 32px;
+    border-radius: 10px;
+}
+
+.future-color-3 h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.future-color-3 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.future-color-3 button{
+    background-color: rgba(255, 194, 57, 1);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
