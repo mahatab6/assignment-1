@@ -317,6 +317,12 @@
     font-size: 30px;
 }
 
+.news-info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
 .news-info button{
     background-color: rgba(0, 106, 80, 1);
     color: white;
@@ -327,5 +333,151 @@
     border: none;
 }
 
+/* Donate-section */
 
+.donate-info{
+    margin-left: 160px;
+    margin-right: 160px;
+    text-align: center;
+}
 
+.donate-info h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.donate-info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.donate-btn{
+    /* width: 1000px;
+    height: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.donate-btn button{
+    width: 160px;
+    height: 60px;
+    color: black;
+    align-items: center;
+
+}
+
+.donate-btn button:hover{
+    background-color: aquamarine;
+}
+
+.Other{
+    display: flex;
+    justify-content: center;
+}
+
+    
+.Other-donate{
+    margin-top: 32px;
+    width: 1050px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin-left: 160px;
+    margin-right: 160px; */
+}
+
+.donate-btn-2{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 32px;
+}
+
+/* Newsletter-section */
+
+.news-letter{
+    background-color: rgba(198, 228, 214, 1);
+    /* width: 1280px;
+    height: auto; */
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+
+.sub-letter{
+    justify-items: center;
+}
+
+.sub-letter h2{
+    padding: 80px 265px 0px 265px; 
+    color: rgba(14, 14, 14, 1);
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+}
+
+.sub-letter p{
+    padding-top: 5px;
+    text-align: center;
+    height: 40px;
+    width: 600px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.email-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-mail{
+    width: 600px;
+    height: 52px;
+
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.subscribe{
+    width: 150px;
+    height: 55px;
+    background-color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* footer-section */
+
+.footer{
+    text-align: center;
+    background: white;
+    padding-top: 50px;
+}
+
+.footer h3{
+    padding-bottom: 50px;
+    color: rgba(14, 14, 14, 1);
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.footer img{
+    gap: 23px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
