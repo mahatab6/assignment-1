@@ -241,3 +241,91 @@
     border-radius: 5px;
     border: none;
 }
+
+/* Quote Section */
+
+.quotation{
+    background-image: url("./image/quote-bg.png");
+    background-repeat: no-repeat;
+    /* width: 1280px; */
+    background-position-y: 10px;
+    background-position-x: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+    margin-top: 16px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border: 2px solid rgba(255, 194, 57, 1);
+}
+
+.quotation p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.quotation h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Recent News */
+
+.recent-news{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.recent-news h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.recent-news{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* news-card */
+
+.news-card{
+    /* height: 400px; */
+    display: flex;
+    padding: 24px;
+    background-color: antiquewhite;
+    margin-top: 32px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border-radius: 10px;
+
+}
+
+.news-img img {
+    border-radius: 15px;
+}
+.news-info{
+    padding-left: 32px;
+}
+
+.news-info h3 {
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.news-info button{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
