@@ -374,10 +374,14 @@
 }
 
 .donate-btn button{
-    width: 160px;
-    height: 60px;
+    width: 240px;
+    height: 130px;
     color: black;
     align-items: center;
+    font-size: 40px;
+    border-radius: 16px;
+    border: none;
+    margin-top: 32px;
 
 }
 
@@ -456,7 +460,7 @@
 
 .sub-mail{
     width: 600px;
-    height: 52px;
+    height: 48px;
 
     border-radius: 10px 0px 0px 10px;
 
