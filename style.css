@@ -110,8 +110,8 @@
 }
 
 .card{
-    width: 220px;
-    height: 200px;
+    width: 302px;
+    height: 244px;
     padding-top: 24px;
     padding-left: 24px;
     padding-right: 24px;
@@ -147,8 +147,9 @@
 
 .future-section{
     display: flex;
+    justify-content: center;
     gap: 24px;
-    align-content: space-between;
+
     margin-left: 160px;
     margin-right: 160px;
     margin-top: 16px;
@@ -156,15 +157,17 @@
 }
 
 .future-card {
-    width: 300px;
+    width: 410px;
+    height: 325px;
     background-color: rgba(84, 144, 245, 0.2);
     padding: 32px 32px 32px 32px;
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
 .future-card h4{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
+    height: 24px;
     color: rgba(14, 14, 14, 0.8);
 }
 
@@ -177,23 +180,26 @@
 .future-card button{
     background-color: rgba(84, 144, 245, 1);
     color: white;
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    border-radius: 5px;
+    width: 122px;
+    height: 41px;
+    margin-top: 64px;
+    font-size: 16px;
+    border-radius: 8px;
     border: none;
 }
 
 .future-color-2{
-    width: 300px;
+    width: 410px;
+    height: 325px;
     background-color: rgba(198, 228, 214, 1);
     padding: 32px 32px 32px 32px;
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
 .future-color-2 h4{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
+    height: 24px;
     color: rgba(14, 14, 14, 0.8);
 }
 
@@ -206,23 +212,26 @@
 .future-color-2 button{
     background-color: rgba(9, 161, 92, 1);
     color: white;
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    border-radius: 5px;
+    width: 122px;
+    height: 41px;
+    margin-top: 64px;
+    font-size: 16px;
+    border-radius: 8px;
     border: none;
 }
 
 .future-color-3{
-    width: 300px;
+    width: 410px;
+    height: 325px;
     background-color: rgba(247, 235, 207, 1);
     padding: 32px 32px 32px 32px;
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
 .future-color-3 h4{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
+    height: 24px;
     color: rgba(14, 14, 14, 0.8);
 }
 
@@ -235,10 +244,11 @@
 .future-color-3 button{
     background-color: rgba(255, 194, 57, 1);
     color: white;
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    border-radius: 5px;
+    width: 122px;
+    height: 41px;
+    margin-top: 64px;
+    font-size: 16px;
+    border-radius: 8px;
     border: none;
 }
 
@@ -256,7 +266,7 @@
     margin-top: 16px;
     margin-left: 160px;
     margin-right: 160px;
-    border: 2px solid rgba(255, 194, 57, 1);
+    border: none;
 }
 
 .quotation p {
